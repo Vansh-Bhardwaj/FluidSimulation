@@ -1,7 +1,7 @@
 # FluidSimulation 
-
+<!-- 
 ![Low-resolution simulation](docs/dam-break-low-res.png)
-![High-resolution simulation](docs/dam-break-high-res.png)
+![High-resolution simulation](docs/dam-break-high-res.png) -->
 
 Fluid simulation via FLIP (Fluid Implicit Particle) Method.
 
