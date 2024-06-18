@@ -58,13 +58,13 @@ The main simulation is in the folder `3d`. It can be compiled with Make and CMak
  - Fluid region: used to select a region to be filled with fluid at the start of the simulation. It is specified by two points (coordinates in meters) which define an axis-aligned bounding box. All cells whose center lies in this region are flagged as fluid.
 
 
-## Viewport navigation in GUI mode
+<!-- ## Viewport navigation in GUI mode
 
 In GUI mode you can navigate using the following controls:
 - Left mouse button to rotate
 - Right mouse button to pan
 - Scroll to zoom
-If at first it seems like the viewport is empty, try zooming out ;)
+If at first it seems like the viewport is empty, try zooming out ;) -->
 
 
 # References
