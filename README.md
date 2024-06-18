@@ -1,4 +1,4 @@
-# WaterSim: optimised implementation of a FLIP algorithm
+# FluidSimulation - I
 
 ![Low-resolution simulation](docs/dam-break-low-res.png)
 ![High-resolution simulation](docs/dam-break-high-res.png)
