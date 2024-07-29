@@ -36,7 +36,7 @@ The main simulation is in the folder `3d`. It can be compiled with Make and CMak
     cd 3d/build && cmake ..
     make -j8
 
-## Simulation parameters
+<!--## Simulation parameters
 
 `watersim` has several options. Note that in GUI mode, the simulation must be reset before any changes to settings are applied (except the render options, which only affect the viewport and not the simulation itself).
 
@@ -58,7 +58,7 @@ The main simulation is in the folder `3d`. It can be compiled with Make and CMak
  - Fluid region: used to select a region to be filled with fluid at the start of the simulation. It is specified by two points (coordinates in meters) which define an axis-aligned bounding box. All cells whose center lies in this region are flagged as fluid.
 
 
-<!-- ## Viewport navigation in GUI mode
+ ## Viewport navigation in GUI mode
 
 In GUI mode you can navigate using the following controls:
 - Left mouse button to rotate
@@ -69,8 +69,7 @@ If at first it seems like the viewport is empty, try zooming out ;) -->
 
 # References
 
-See the `docs` folder for some useful PDFs.
-
-- C. Amevor, S. Bone, F. Illes, M. Stellio, "Optimisation of a FLIP algorithm", report for the Advanced Systems Lab lecture at ETH Zürich, spring semester 2021.
-- R. Bridson, "FLUID SIMULATION", SIGGRAPH 2007 Course Notes. [Available online](https://www.cs.ubc.ca/~rbridson/fluidsimulation/fluids_notes.pdf).
-- D. Englesson, J. Kilby, J. Ek, "Fluid Simulation Using Implicit Particles", report for the Advanced Game Programming lecture at Linköpings universitet, December 2011. [Available online](http://danenglesson.com/flipfluid.html).
+Brackbill, J. U., Kress, D. B., & Solomon, H. M. (1988). FLIP: A low-dissipation, particle-in-cell method for fluid flow. Journal of Computational Physics, 81(2), 35-82.
+Englesson, D. (2024). Fluid Simulation Using Implicit Particles [Report]. Retrieved from http://www.danenglesson.com/images/portfolio/FLIP/rapport.pdf
+Losasso, F., & Fedkiw, R. (2024). A Second-Order Accurate, Two-Step FLIP Method for Incompressible Two-Phase Flow [arXiv preprint arXiv:2404.01931]. Retrieved from https://arxiv.org/abs/2301.06395
+Wiki contributors. (n.d.). FLIP Fluids. Carnegie Mellon University Entertainment Technology Center Wiki. Retrieved June 18, 2024, from http://www.cs.cmu.edu/~15769-f23/
